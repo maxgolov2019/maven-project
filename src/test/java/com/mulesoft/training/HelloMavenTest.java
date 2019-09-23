@@ -12,10 +12,7 @@ public class HelloMavenTest extends FunctionalTestCase {
         runFlowAndExpect("mavenFlow", "Hello Maven");
     }
     
-    @Test
-    public void mavenFlowReturnsHelloMaven2() throws Exception {
-        runFlowAndExpect("mavenFlow", "Hello Maven");
-    }
+  
     
     @Override
     protected String getConfigFile() {
